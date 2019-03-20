@@ -51,8 +51,8 @@ public class ANTLR{
 	}
 	else if(tokens.get(i).getText().equals("INT")){
 		//this does not work atm </3
-		//System.out.print(tokens.get(i+1).getText() + " ");
-		//System.out.println(tokens.get(i+3).getText());
+		System.out.print(tokens.get(i+1).getText() + " ");
+		System.out.println(tokens.get(i+3).getText());
 
 	}
 	//System.out.println(tokens.getText());
@@ -66,7 +66,11 @@ public class ANTLR{
       else{
         System.out.println("Not Accepted " + numErrors);
       }
+    
+
     }
+
+    
 	//MicroParser parser = new MicroParser(tokens);
  	//ParseTree tree = parser.program();
 	//Mylistener listener = new Mylistener();
